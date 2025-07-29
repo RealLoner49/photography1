@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  background: url('/Img/11.jpg') no-repeat center center/cover;
+  color: white;
+  padding: 0 10%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left {
+  width: 45%;
+}
+
+.left h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.left p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.right {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.right h2 {
+  margin-bottom: 20px;
+}
+
+.right form {
+  display: flex;
+  flex-direction: column;
+}
+
+.right label {
+  margin: 10px 0 5px;
+}
+
+.right input[type="email"],
+.right input[type="password"] {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.checkbox label {
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.right button {
+  background: #333;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.right button a{
+  text-align: none;
+  text-decoration: none;
+  color: white;
+}
+
+.right p {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.right p a {
+  color: #ccc;
+  text-decoration: underline;
+}
+
+.terms {
+  font-size: 11px;
+  margin-top: 15px;
+  line-height: 1.4;
+}
